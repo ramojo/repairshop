@@ -25,7 +25,6 @@ export function NavButton({
             {href ? (
                 <Link href={href}>
                     <Icon />
-                    {label}
                 </Link>
             ) : (
                 <Icon />
